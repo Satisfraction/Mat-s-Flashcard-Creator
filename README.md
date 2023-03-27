@@ -1,6 +1,6 @@
 # Mat-s-Flashcard-Creator
 
-Mat´s Flashcard Creator ist ein Python-Tool, das die Erstellung und Verwaltung von Lernkarten ermöglicht. Das Tool wurde in Python 3.9.7 unter Verwendung der Tkinter-Bibliothek entwickelt.
+Mat´s Flashcard Creator ist ein Python-Tool, das die Erstellung und Verwaltung von Lernkarten ermöglicht. Das Tool wurde in Python 3.10 unter Verwendung der Tkinter-Bibliothek entwickelt.
 
 Um das Tool auszuführen, müssen Sie Python auf Ihrem Computer installiert haben. Nachdem Sie Python installiert haben, müssen Sie das Tool herunterladen und auf Ihrem Computer speichern. Um das Tool zu starten, navigieren Sie in Ihrem Terminal zu dem Verzeichnis, in dem Sie die Datei flashcard_creator.py gespeichert haben, und geben Sie den Befehl python flashcard_creator.py ein.
 
