@@ -38,8 +38,8 @@ python FlashcardCreator.py
 
 or
 
-```shell
 python3 FlashcardCreator.py
+```shell
 
 
 
