@@ -34,11 +34,12 @@ Please note that the flashcards are saved in a JSON file named "flashcards.json"
 Run the following command to start the tool:
 
 
-`python FlashcardCreator.py`
+``
+python FlashcardCreator.py``
 
 or
 
-`python3 FlashcardCreator.py`
+``python3 FlashcardCreator.py``
 
 
 
