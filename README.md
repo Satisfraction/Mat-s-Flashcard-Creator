@@ -1,28 +1,52 @@
-# Mat-s-Flashcard-Creator
+# Flashcard Creator
 
-Mat´s Flashcard Creator ist ein Python-Tool, das die Erstellung und Verwaltung von Lernkarten ermöglicht. Das Tool wurde in Python 3.10 unter Verwendung der Tkinter-Bibliothek entwickelt.
+This tool allows you to create, save, search, and edit flashcards. The tool is developed using PyQt5 and provides a user interface for easy interaction.
 
-Um das Tool auszuführen, müssen Sie Python auf Ihrem Computer installiert haben. Nachdem Sie Python installiert haben, müssen Sie das Tool herunterladen und auf Ihrem Computer speichern. Um das Tool zu starten, navigieren Sie in Ihrem Terminal zu dem Verzeichnis, in dem Sie die Datei flashcard_creator.py gespeichert haben, und geben Sie den Befehl python flashcard_creator.py ein.
+## Features
 
-Das FlashcardCreator-Tool verfügt über folgende Funktionen:
+- Input questions and answers for flashcards
+- Save flashcards to a JSON file
+- Check for duplicates to avoid creating duplicate flashcards
+- Load existing flashcards for editing
+- Search for flashcards based on keywords in the questions
+- Change the font size for the user interface
+- Change the background color of the main window
 
-Erstellung neuer Lernkarten durch Eingabe von Frage und Antwort
-Speicherung der erstellten Lernkarten in einer JSON-Datei
-Auswahl einer vorhandenen Lernkarte zum Bearbeiten oder Löschen
-Suche nach Lernkarten anhand eines Suchbegriffs
-Änderung der Schriftgröße und Hintergrundfarbe
-Um eine neue Lernkarte zu erstellen, geben Sie einfach die Frage und die Antwort in die entsprechenden Textfelder ein und klicken Sie auf den "Speichern"-Button. Wenn eine Lernkarte mit derselben Frage und Antwort bereits existiert, wird die Lernkarte nicht gespeichert.
+## Instructions
 
-Um eine vorhandene Lernkarte auszuwählen, klicken Sie auf den "Lernkarte auswählen"-Button, wählen Sie die gewünschte Lernkarte aus dem Dropdown-Menü aus und klicken Sie auf den "Lernkarte laden"-Button. Wenn Sie eine Lernkarte ausgewählt haben, können Sie sie bearbeiten oder löschen.
+1. Enter a question in the "Question" text field.
+2. Enter the corresponding answer in the "Answer" text field.
+3. Click the "Save" button to save the flashcard. It checks for existing duplicates.
+4. To edit an existing flashcard, click the "Select Flashcard" button and choose the desired flashcard from the dropdown menu. Then click "Load Flashcard" to load the question and answer into the respective text fields.
+5. To search for flashcards, enter a search term in the "Search" text field and click the "Search" button. It will display all flashcards whose question contains the search term.
+6. Click the "Change Font Size" button to adjust the font size of the user interface. Enter the desired font size in the displayed dialog.
+7. Click the "Change Background Color" button to change the background color of the main window. Select a color from the color selection dialog.
 
-Um nach Lernkarten zu suchen, geben Sie einen Suchbegriff in das Suchfeld ein und klicken Sie auf den "Suchen"-Button. Das Tool durchsucht dann alle gespeicherten Lernkarten und zeigt alle Lernkarten an, deren Frage oder Antwort den Suchbegriff enthält.
+Please note that the flashcards are saved in a JSON file named "flashcards.json". Make sure this file is present in the same directory as the tool.
 
-Um die Schriftgröße zu ändern, klicken Sie auf den "Schriftgröße ändern"-Button. Das Tool öffnet dann ein Dialogfeld, in dem Sie die neue Schriftgröße eingeben können.
+## Requirements
 
-Um die Hintergrundfarbe zu ändern, klicken Sie auf den "Hintergrundfarbe ändern"-Button. Das Tool öffnet dann ein Farbauswahl-Dialogfeld, in dem Sie eine neue Hintergrundfarbe auswählen können.
+- Python 3.x
+- PyQt5
 
-Alle erstellten Lernkarten werden in einer JSON-Datei namens "flashcards.json" gespeichert, die im gleichen Verzeichnis wie das FlashcardCreator-Tool gespeichert ist.
+## Execution
 
-Autor: Dieses Programm wurde von Satisfraction entwickelt.
+Run the following command to start the tool:
 
-Lizenz: Dieses Programm ist unter der MIT-Lizenz lizenziert. Sie können den Quellcode frei verwenden und ändern, solange Sie die Lizenzbedingungen einhalten.
+```shell
+python FlashcardCreator.py
+
+or
+
+```shell
+python3 FlashcardCreator.py
+
+
+
+### Author: 
+
+Satisfraction
+
+### License: 
+
+MIT
